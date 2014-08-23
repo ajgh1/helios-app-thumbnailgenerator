@@ -1,0 +1,42 @@
+Helios-App-ThumbnailGenerator version 0.01
+==========================================
+
+Helios::App::ThumbnailGenerator is a small Helios application that 
+uses Image::Magick to generate thumbnails for images.  It's 
+intended primary uses are to provide a service for other applications 
+to hand off thumbnail generation duties, and to distribute the 
+workload of generating thumbnails for large batches of images across 
+multiple worker processes or hosts.
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+    Helios 2.80 or later
+    Image::Magick 6.6.9
+    Image::Magick::Thumbnail 0.06
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2014 by Andrew Johnson.
+
+This library is free software; you can redistribute it and/or modify it under 
+the terms of the Artistic License 2.0.  See the included LICENSE file for 
+details.
+
+
+WARRANTY
+
+This software comes with no warranty of any kind.

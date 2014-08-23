@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+LICENSE
+README
+t/Helios-App-ThumbnailGenerator.t
+lib/Helios/App/ThumbnailGenerator.pm
